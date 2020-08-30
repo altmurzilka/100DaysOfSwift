@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need to save photos you like
+  &quot;ns&quot;: &quot;yt&quot;,
+  &quot;el&quot;: &quot;embedded&quot;,
+  &quot;cpn&quot;: &quot;BdY_A9H-M0xURRsU&quot;,
+  &quot;docid&quot;: &quot;_bjMK-c1EV8&quot;,
+  &quot;ver&quot;: 2,
+  &quot;referrer&quot;: &quot;https://www.youtube-nocookie.com/embed/_bjMK-c1EV8?rel=0&quot;,
+  &quot;cmt&quot;: &quot;728.512&quot;,
+  &quot;ei&quot;: &quot;gNdLX6KSAZH_7gT7jqnoDA&quot;,
+  &quot;fmt&quot;: &quot;137&quot;,
+  &quot;fs&quot;: &quot;0&quot;,
+  &quot;rt&quot;: &quot;2113.97&quot;,
+  &quot;of&quot;: &quot;8lhlSNNxPlUAhe9Os2JvYw&quot;,
+  &quot;euri&quot;: &quot;https://www.hackingwithswift.com/read/3/2/uiactivityviewcontroller-explained&quot;,
+  &quot;lact&quot;: 3,
+  &quot;cl&quot;: &quot;328624867&quot;,
+  &quot;mos&quot;: 0,
+  &quot;state&quot;: &quot;4&quot;,
+  &quot;vm&quot;: &quot;CAEQARgEKiBRdHZVZHZKd3dHdHI0b0xBNDZzSkN5b0JTcEFDdXJ5eDoyQUNfSlFOSS1jc2l5ZlpocXdjQUZDbE5NMEpfV0M5Ul9iVXFmUm5EelNOd0FVdVVmVXc&quot;,
+  &quot;volume&quot;: 100,
+  &quot;c&quot;: &quot;WEB_EMBEDDED_PLAYER&quot;,
+  &quot;cver&quot;: &quot;20200827&quot;,
+  &quot;cplayer&quot;: &quot;UNIPLAYER&quot;,
+  &quot;cbr&quot;: &quot;Chrome&quot;,
+  &quot;cbrver&quot;: &quot;84.0.4147.135&quot;,
+  &quot;cos&quot;: &quot;Macintosh&quot;,
+  &quot;cosver&quot;: &quot;10_15_5&quot;,
+  &quot;hl&quot;: &quot;en_US&quot;,
+  &quot;cr&quot;: &quot;KZ&quot;,
+  &quot;len&quot;: &quot;780.961&quot;,
+  &quot;fexp&quot;: &quot;23723207,23744176,23748147,23804281,23839597,23856950,23859802,23862346,23882685,23884386,23885566,23890027,23892482,23895671,23897656,23898479,23911055,23911902,23916148,23917616,23918597,23921357,23921993,23924579,23928508,23928545,23929930,23930220,23932954,23934970,23935848,23939605,24590232,9406174,9449243&quot;,
+  &quot;afmt&quot;: &quot;251&quot;,
+  &quot;size&quot;: &quot;464:825:2&quot;,
+  &quot;inview&quot;: &quot;1&quot;,
+  &quot;vct&quot;: &quot;728.512&quot;,
+  &quot;vd&quot;: &quot;780.961&quot;,
+  &quot;vpl&quot;: &quot;0.000-728.512&quot;,
+  &quot;vbu&quot;: &quot;0.000-780.961&quot;,
+  &quot;vpa&quot;: &quot;1&quot;,
+  &quot;vsk&quot;: &quot;0&quot;,
+  &quot;ven&quot;: &quot;0&quot;,
+  &quot;vpr&quot;: &quot;1&quot;,
+  &quot;vrs&quot;: &quot;4&quot;,
+  &quot;vns&quot;: &quot;2&quot;,
+  &quot;vec&quot;: &quot;null&quot;,
+  &quot;vemsg&quot;: &quot;&quot;,
+  &quot;vvol&quot;: &quot;1&quot;,
+  &quot;vdom&quot;: &quot;1&quot;,
+  &quot;vsrc&quot;: &quot;1&quot;,
+  &quot;vw&quot;: 825,
+  &quot;vh&quot;: 464,
+  &quot;creationTime&quot;: 2118266.6400000015,
+  &quot;totalVideoFrames&quot;: 23858,
+  &quot;droppedVideoFrames&quot;: 80,
+  &quot;corruptedVideoFrames&quot;: 0,
+  &quot;lct&quot;: &quot;728.512&quot;,
+  &quot;lsk&quot;: false,
+  &quot;lmf&quot;: false,
+  &quot;lbw&quot;: &quot;2088522.604&quot;,
+  &quot;lhd&quot;: &quot;0.078&quot;,
+  &quot;lst&quot;: &quot;0.000&quot;,
+  &quot;laa&quot;: &quot;itag=251,type=3,seg=78,time=780.0-781.0,off=0,len=452,end=1,eos=1&quot;,
+  &quot;lva&quot;: &quot;itag=137,type=3,seg=146,time=778.7-780.9,off=0,len=26270,end=1,eos=1&quot;,
+  &quot;lar&quot;: &quot;itag=251,type=3,seg=78,time=780.0-781.0,off=0,len=17242.800000000654,end=1,eos=1&quot;,
+  &quot;lvr&quot;: &quot;itag=137,type=3,seg=146,time=778.7-780.9,off=0,len=409532.75000000006,end=1,eos=1&quot;,
+  &quot;lab&quot;: &quot;0.000-780.961&quot;,
+  &quot;lvb&quot;: &quot;0.000-780.867&quot;,
+  &quot;ismb&quot;: 5070000,
+  &quot;relative_loudness&quot;: &quot;-1.737&quot;,
+  &quot;optimal_format&quot;: &quot;1080p&quot;,
+  &quot;user_qual&quot;: &quot;auto&quot;,
+  &quot;debug_videoId&quot;: &quot;_bjMK-c1EV8&quot;,
+  &quot;0sz&quot;: false,
+  &quot;op&quot;: &quot;&quot;,
+  &quot;yof&quot;: false,
+  &quot;dis&quot;: &quot;&quot;,
+  &quot;gpu&quot;: &quot;Intel(R)_Iris(TM)_Plus_Graphics_640&quot;,
+  &quot;cgr&quot;: true,
+  &quot;debug_playbackQuality&quot;: &quot;hd1080&quot;,
+  &quot;debug_date&quot;: &quot;Sun Aug 30 2020 23:46:29 GMT+0600 (East Kazakhstan Time)&quot;
+{
+  &quot;ns&quot;: &quot;yt&quot;,
+  &quot;el&quot;: &quot;embedded&quot;,
+  &quot;cpn&quot;: &quot;BdY_A9H-M0xURRsU&quot;,
+  &quot;docid&quot;: &quot;_bjMK-c1EV8&quot;,
+  &quot;ver&quot;: 2,
+  &quot;referrer&quot;: &quot;https://www.youtube-nocookie.com/embed/_bjMK-c1EV8?rel=0&quot;,
+  &quot;cmt&quot;: &quot;728.512&quot;,
+  &quot;ei&quot;: &quot;gNdLX6KSAZH_7gT7jqnoDA&quot;,
+  &quot;fmt&quot;: &quot;137&quot;,
+  &quot;fs&quot;: &quot;0&quot;,
+  &quot;rt&quot;: &quot;2113.97&quot;,
+  &quot;of&quot;: &quot;8lhlSNNxPlUAhe9Os2JvYw&quot;,
+  &quot;euri&quot;: &quot;https://www.hackingwithswift.com/read/3/2/uiactivityviewcontroller-explained&quot;,
+  &quot;lact&quot;: 3,
+  &quot;cl&quot;: &quot;328624867&quot;,
+  &quot;mos&quot;: 0,
+  &quot;state&quot;: &quot;4&quot;,
+  &quot;vm&quot;: &quot;CAEQARgEKiBRdHZVZHZKd3dHdHI0b0xBNDZzSkN5b0JTcEFDdXJ5eDoyQUNfSlFOSS1jc2l5ZlpocXdjQUZDbE5NMEpfV0M5Ul9iVXFmUm5EelNOd0FVdVVmVXc&quot;,
+  &quot;volume&quot;: 100,
+  &quot;c&quot;: &quot;WEB_EMBEDDED_PLAYER&quot;,
+  &quot;cver&quot;: &quot;20200827&quot;,
+  &quot;cplayer&quot;: &quot;UNIPLAYER&quot;,
+  &quot;cbr&quot;: &quot;Chrome&quot;,
+  &quot;cbrver&quot;: &quot;84.0.4147.135&quot;,
+  &quot;cos&quot;: &quot;Macintosh&quot;,
+  &quot;cosver&quot;: &quot;10_15_5&quot;,
+  &quot;hl&quot;: &quot;en_US&quot;,
+  &quot;cr&quot;: &quot;KZ&quot;,
+  &quot;len&quot;: &quot;780.961&quot;,
+  &quot;fexp&quot;: &quot;23723207,23744176,23748147,23804281,23839597,23856950,23859802,23862346,23882685,23884386,23885566,23890027,23892482,23895671,23897656,23898479,23911055,23911902,23916148,23917616,23918597,23921357,23921993,23924579,23928508,23928545,23929930,23930220,23932954,23934970,23935848,23939605,24590232,9406174,9449243&quot;,
+  &quot;afmt&quot;: &quot;251&quot;,
+  &quot;size&quot;: &quot;464:825:2&quot;,
+  &quot;inview&quot;: &quot;1&quot;,
+  &quot;vct&quot;: &quot;728.512&quot;,
+  &quot;vd&quot;: &quot;780.961&quot;,
+  &quot;vpl&quot;: &quot;0.000-728.512&quot;,
+  &quot;vbu&quot;: &quot;0.000-780.961&quot;,
+  &quot;vpa&quot;: &quot;1&quot;,
+  &quot;vsk&quot;: &quot;0&quot;,
+  &quot;ven&quot;: &quot;0&quot;,
+  &quot;vpr&quot;: &quot;1&quot;,
+  &quot;vrs&quot;: &quot;4&quot;,
+  &quot;vns&quot;: &quot;2&quot;,
+  &quot;vec&quot;: &quot;null&quot;,
+  &quot;vemsg&quot;: &quot;&quot;,
+  &quot;vvol&quot;: &quot;1&quot;,
+  &quot;vdom&quot;: &quot;1&quot;,
+  &quot;vsrc&quot;: &quot;1&quot;,
+  &quot;vw&quot;: 825,
+  &quot;vh&quot;: 464,
+  &quot;creationTime&quot;: 2118266.6400000015,
+  &quot;totalVideoFrames&quot;: 23858,
+  &quot;droppedVideoFrames&quot;: 80,
+  &quot;corruptedVideoFrames&quot;: 0,
+  &quot;lct&quot;: &quot;728.512&quot;,
+  &quot;lsk&quot;: false,
+  &quot;lmf&quot;: false,
+  &quot;lbw&quot;: &quot;2088522.604&quot;,
+  &quot;lhd&quot;: &quot;0.078&quot;,
+  &quot;lst&quot;: &quot;0.000&quot;,
+  &quot;laa&quot;: &quot;itag=251,type=3,seg=78,time=780.0-781.0,off=0,len=452,end=1,eos=1&quot;,
+  &quot;lva&quot;: &quot;itag=137,type=3,seg=146,time=778.7-780.9,off=0,len=26270,end=1,eos=1&quot;,
+  &quot;lar&quot;: &quot;itag=251,type=3,seg=78,time=780.0-781.0,off=0,len=17242.800000000654,end=1,eos=1&quot;,
+  &quot;lvr&quot;: &quot;itag=137,type=3,seg=146,time=778.7-780.9,off=0,len=409532.75000000006,end=1,eos=1&quot;,
+  &quot;lab&quot;: &quot;0.000-780.961&quot;,
+  &quot;lvb&quot;: &quot;0.000-780.867&quot;,
+  &quot;ismb&quot;: 5070000,
+  &quot;relative_loudness&quot;: &quot;-1.737&quot;,
+  &quot;optimal_format&quot;: &quot;1080p&quot;,
+  &quot;user_qual&quot;: &quot;auto&quot;,
+  &quot;debug_videoId&quot;: &quot;_bjMK-c1EV8&quot;,
+  &quot;0sz&quot;: false,
+  &quot;op&quot;: &quot;&quot;,
+  &quot;yof&quot;: false,
+  &quot;dis&quot;: &quot;&quot;,
+  &quot;gpu&quot;: &quot;Intel(R)_Iris(TM)_Plus_Graphics_640&quot;,
+  &quot;cgr&quot;: true,
+  &quot;debug_playbackQuality&quot;: &quot;hd1080&quot;,
+  &quot;debug_date&quot;: &quot;Sun Aug 30 2020 23:46:29 GMT+0600 (East Kazakhstan Time)&quot;
+We need to save photos you like</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
