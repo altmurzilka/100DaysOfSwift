@@ -16,6 +16,9 @@ class ViewController: UITableViewController {
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        // day 22 project 3 challenge 2
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -51,6 +54,18 @@ class ViewController: UITableViewController {
             
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+    
+    // day 22 project 3 challenge 2
+    @objc func shareTapped() {
+        var items: [Any] = ["This app is great, you should try it!"]
+        if let url = URL(string: "https://www.hackingwithswift.com/100/16") {
+            items.append(url)
+        }
+        
+        let vc = UIActivityViewController(activityItems: items, applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 }
 
